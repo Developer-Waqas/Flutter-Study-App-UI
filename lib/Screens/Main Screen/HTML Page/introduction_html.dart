@@ -1,4 +1,4 @@
-import 'package:coaching_center_ui/Screens/Main%20Screen/HTML%20Page/tags_html.dart';
+import 'package:coaching_center/Screens/Main%20Screen/HTML%20Page/tags_html.dart';
 import 'package:flutter/material.dart';
 
 class IntroductionHTML extends StatelessWidget {
@@ -9,27 +9,27 @@ class IntroductionHTML extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xff000435),
       ///<<<<<<<<<<=============APPBAR=============>>>>>>>>>>>>>>.
-      appBar: AppBar(
-        flexibleSpace: Container(
-          height: MediaQuery.of(context).size.height,
-          width: MediaQuery.of(context).size.width,
-          decoration: const BoxDecoration(color: Color(0xff000435)),
-        ),
-        title: const Text(
-          'Coaching Center',
-          style: TextStyle(
-            color: Colors.grey,
-            fontSize: 24,
-            fontFamily: 'Raleway Bold',
-          ),
-        ),
-        shape: const RoundedRectangleBorder(
-            borderRadius: BorderRadius.vertical(
-          bottom: Radius.circular(80),
-        )),
-        shadowColor: Colors.white,
-        centerTitle: true,
-      ),
+      // appBar: AppBar(
+      //   flexibleSpace: Container(
+      //     height: MediaQuery.of(context).size.height,
+      //     width: MediaQuery.of(context).size.width,
+      //     decoration: const BoxDecoration(color: Color(0xff000435)),
+      //   ),
+      //   title: const Text(
+      //     'Coaching Center',
+      //     style: TextStyle(
+      //       color: Colors.grey,
+      //       fontSize: 24,
+      //       fontFamily: 'Raleway Bold',
+      //     ),
+      //   ),
+      //   shape: const RoundedRectangleBorder(
+      //       borderRadius: BorderRadius.vertical(
+      //     bottom: Radius.circular(80),
+      //   )),
+      //   shadowColor: Colors.white,
+      //   centerTitle: true,
+      // ),
       body: SingleChildScrollView(
         child: SafeArea(
           child: Column(
